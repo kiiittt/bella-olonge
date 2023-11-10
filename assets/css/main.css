@@ -171,7 +171,7 @@ header {
 .hero_img_div {
   max-width: 1200px;
   height: 618px;
-  background-image: url(/b_assets/images/hero.png);
+  background-image: url(./b_assets/images/hero.png);
   object-fit: contain;
   display: flex;
   flex-direction: column;
@@ -349,7 +349,7 @@ header {
 .div_dowload {
   max-width: 1200px;
   height: 516px;
-  background-image: url(/b_assets/images/dowload.png);
+  background-image: url(./b_assets/images/dowload.png);
   object-fit: contain;
   display: flex;
   flex-direction: column;
