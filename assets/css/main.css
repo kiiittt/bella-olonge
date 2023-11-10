@@ -241,7 +241,6 @@ header {
   z-index: 2;
   opacity: 0;
   transition: 1s;
-  margin-right: 130px;
 }
 
 .hero:hover .div_phone1{
@@ -254,8 +253,15 @@ header {
   height: 860px;
   position: absolute;
   bottom: -800px;
-  right: 192px;
+  right: 102px;
   z-index: 1;
+    opacity: 0;
+  transition: 1s;
+}
+
+.hero:hover .div_phone2{
+  opacity: 1;
+  right: 192px;
 }
 
 .about {
@@ -314,6 +320,7 @@ header {
   margin-bottom: 260px;
   animation-name: aboutPhoneImg;
   animation-duration: 2s;
+
   animation-timing-function: linear;
   animation-iteration-count: infinite;
   animation-direction: alternate;
@@ -322,9 +329,11 @@ header {
 @keyframes aboutPhoneImg {
   0% {
     top: 0;
+  transform: rotate(4deg);    
   }
   100% {
     top: 50px;
+  transform: rotate(-4deg);    
   }
 }
 
