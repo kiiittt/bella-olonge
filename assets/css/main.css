@@ -533,15 +533,6 @@ header {
     font-size: 16px;
     margin-top: 0;
   }
-  .about_ul {
-    max-width: 320px;
-  }
-  .about_li {
-    max-width: 320px;
-  }
-  .about_li:nth-child(2) {
-    max-width: 320px;
-  }
   .about_li_text {
     margin-left: 60px;
   }
@@ -556,6 +547,7 @@ header {
     font-size: 18px;
   }
   .about_ul {
+    max-width: 320px;    
     margin-bottom: 100px;
     align-self: center;
   }
@@ -689,6 +681,7 @@ header {
   }
   .about_ul {
     max-width: 768px;
+    align-self: auto;
   }
   .about_li {
     max-width: 768px;
